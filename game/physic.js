@@ -15,4 +15,6 @@ function update()
 
     player1.move();
     controls.update();
+
+    ennemy.accelerate(moveDistance);
 }
